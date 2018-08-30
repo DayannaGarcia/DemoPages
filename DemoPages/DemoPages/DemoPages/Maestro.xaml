@@ -4,9 +4,9 @@
              x:Class="DemoPages.Maestro">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Soy el maestro"
+                        BackgroundColor="Aquamarine"
+                        TextColor="Black"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
