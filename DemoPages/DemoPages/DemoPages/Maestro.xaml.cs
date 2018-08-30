@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace DemoPages
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class DemoMasterDetail : MasterDetailPage
+	public partial class Maestro : ContentPage
 	{
-		public DemoMasterDetail ()
+		public Maestro ()
 		{
 			InitializeComponent ();
 		}
