@@ -8,9 +8,13 @@
              Title="Ximian Icaza">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView>
+            <ListView.ItemsSource>
+                    <x:Array Type="{x:Type local:local:MasterPageItem}">
+                        <local:MasterPageItem Titulo="Contactos" Icono="contact.png" TipoPagina=""></local:MasterPageItem>
+                    </x:Array>
+            </ListView.ItemsSource>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
