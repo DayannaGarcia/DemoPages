@@ -4,9 +4,18 @@
              x:Class="DemoPages.Page2">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Esta es la pagina dos" 
+                   />
+            <Label x:Name="lbOpcion"
+                   />
+            <Button x:Name="btnTest"
+                    Text="Test"
+                    Clicked="btnTest_Clicked"
+                    />
+            <Button x:Name="btnTres"
+                    Text="Siguiente"
+                    Clicked="btnTres_Clicked"
+                    />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
