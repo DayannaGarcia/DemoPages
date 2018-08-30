@@ -14,7 +14,8 @@ namespace DemoPages
             navigationPage.BarBackgroundColor = Color.Black;
             navigationPage.BarTextColor = Color.White;
             MainPage = navigationPage;*/
-			MainPage = new NavigationPage(new DemoNavigation());
+            //MainPage = new NavigationPage(new DemoNavigation());
+            MainPage = new DemoCarouselPage();
 		}
 
 		protected override void OnStart ()
