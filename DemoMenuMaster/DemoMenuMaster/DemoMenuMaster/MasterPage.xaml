@@ -16,6 +16,20 @@
                         <local:MasterPageItem Titulo="Contactos" Icono="alert.png" TipoPagina="{x:Type local:local:AlertasPage}"></local:MasterPageItem>
                     </x:Array>
             </ListView.ItemsSource>
+            <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="5,10">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="30"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding Icono}"/>
+                                <Label Grid.Column="1" Text="{Binding Titulo}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>    
+            </ListView.ItemTemplate>
             </ListView>
         </StackLayout>
     </ContentPage.Content>
