@@ -10,10 +10,10 @@
         <StackLayout>
             <ListView>
             <ListView.ItemsSource>
-                    <x:Array Type="{x:Type local:local:MasterPageItem}">
+                    <x:Array Type="{x:Type local:MasterPageItem}">
                         <local:MasterPageItem Titulo="Contactos" Icono="contact.png" TipoPagina="{x:Type local:ContactosPage}"></local:MasterPageItem>
-                        <local:MasterPageItem Titulo="Contactos" Icono="list.png" TipoPagina="{x:Type local:local:ListadoPage}"></local:MasterPageItem>
-                        <local:MasterPageItem Titulo="Contactos" Icono="alert.png" TipoPagina="{x:Type local:local:AlertasPage}"></local:MasterPageItem>
+                        <local:MasterPageItem Titulo="Listado" Icono="list.png" TipoPagina="{x:Type local:ListadoPage}"></local:MasterPageItem>
+                        <local:MasterPageItem Titulo="Alertas" Icono="alert.png" TipoPagina="{x:Type local:AlertasPage}"></local:MasterPageItem>
                     </x:Array>
             </ListView.ItemsSource>
             <ListView.ItemTemplate>
